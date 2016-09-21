@@ -1,0 +1,45 @@
+{
+  "dir": {
+    "root":{
+      "src": "src/",
+      "dev": "_dev/",
+      "rc": "_rc/",
+      "production": "_production/",
+      "test": "test/"
+    },
+    "type": {
+  	  "source": {
+  	    "scripts": "scripts/",
+        "views": "views/",
+        "styles": "styles/",
+  	    "resources": "resources/"
+  	  },
+  	  "destination": {
+  	    "js": "public/js/",
+        "css": "public/css/",
+        "html": "public/",
+  	    "assets": "public/assets/"
+  	  }
+    }
+  },
+  "npmLibraries": [
+    "react",
+    "react-dom",
+    "three",
+    "react-three-renderer"
+  ],
+  "appConfigurations": {
+    "develop": {
+
+    },
+	"develop2": {
+
+    },
+    "localhost": {
+
+    },
+    "production": {
+
+    }
+  }
+}
